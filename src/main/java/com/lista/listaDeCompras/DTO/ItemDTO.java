@@ -6,14 +6,14 @@ public class ItemDTO {
 
     Produto produto;
 
-    Integer quandidadeDeItens;
+    Integer quantidadeDeItens;
 
-    public Integer getQuandidadeDeItens() {
-        return quandidadeDeItens;
+    public Integer getQuantidadeDeItens() {
+        return quantidadeDeItens;
     }
 
-    public void setQuandidadeDeItens(Integer quandidadeDeItens) {
-        this.quandidadeDeItens = quandidadeDeItens;
+    public void setQuantidadeDeItens(Integer quantidadeDeItens) {
+        this.quantidadeDeItens = quantidadeDeItens;
     }
 
     public Produto getProduto() {
