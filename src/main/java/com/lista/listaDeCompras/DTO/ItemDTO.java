@@ -1,10 +1,13 @@
 package com.lista.listaDeCompras.DTO;
 
-import com.lista.listaDeCompras.models.Produto;
+import com.lista.listaDeCompras.models.ProdutoEnum;
 
 public class ItemDTO {
-
-    Produto produto;
+//data transfer object - utilizamos para passar dados
+// não expor todos os campos das classes
+// quando não precisamos usar todos os campos
+//segregar responsabilidades/funções
+    ProdutoEnum produto;
 
     Integer quantidadeDeItens;
 
@@ -16,11 +19,11 @@ public class ItemDTO {
         this.quantidadeDeItens = quantidadeDeItens;
     }
 
-    public Produto getProduto() {
+    public ProdutoEnum getProduto() {
         return produto;
     }
 
-    public void setProduto(Produto produto) {
+    public void setProduto(ProdutoEnum produto) {
         this.produto = produto;
     }
 }

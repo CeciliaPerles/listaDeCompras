@@ -1,5 +1,6 @@
 package com.lista.listaDeCompras.controllers;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lista.listaDeCompras.DTO.ItemDTO;
 import com.lista.listaDeCompras.DTO.RemoverItemDTO;
 import com.lista.listaDeCompras.services.ListaService;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestController
+@RestController //expor endpoints
 @RequestMapping("/lista")
 public class ListaController {
 

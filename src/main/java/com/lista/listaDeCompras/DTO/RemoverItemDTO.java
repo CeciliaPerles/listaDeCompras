@@ -1,16 +1,16 @@
 package com.lista.listaDeCompras.DTO;
 
-import com.lista.listaDeCompras.models.Produto;
+import com.lista.listaDeCompras.models.ProdutoEnum;
 
 public class RemoverItemDTO {
 
-    Produto produto;
+    ProdutoEnum produto;
 
-    public Produto getProduto() {
+    public ProdutoEnum getProduto() {
         return produto;
     }
 
-    public void setProduto(Produto produto) {
+    public void setProduto(ProdutoEnum produto) {
         this.produto = produto;
     }
 }

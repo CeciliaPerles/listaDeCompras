@@ -4,15 +4,15 @@ import java.util.Objects;
 
 public class Item {
 
-    Produto produto;
+    private ProdutoEnum produto;
 
-    int quandidadeDeItens;
+    private int quandidadeDeItens;
 
-    public Produto getProduto() {
+    public ProdutoEnum getProduto() {
         return produto;
     }
 
-    public void setProduto(Produto produto) {
+    public void setProduto(ProdutoEnum produto) {
         this.produto = produto;
     }
 

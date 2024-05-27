@@ -2,11 +2,10 @@ package com.lista.listaDeCompras.services;
 import com.lista.listaDeCompras.DTO.ItemDTO;
 import com.lista.listaDeCompras.DTO.RemoverItemDTO;
 import com.lista.listaDeCompras.models.Item;
-import com.lista.listaDeCompras.models.Produto;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-@Service
+@Service //lógicas de negócio
 public class ListaService {
     List<Item> listaDeItens = new ArrayList<>();
 
